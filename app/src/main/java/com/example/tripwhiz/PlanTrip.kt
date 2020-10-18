@@ -12,7 +12,7 @@ class PlanTrip : AppCompatActivity() {
 
 //Here i will writes those OnclickListner's when i'll work on backend
             //for testing i am just using sleep try catch here ..........
-        val SplashScreenTimeOut= 7000
+        val SplashScreenTimeOut= 2000
         val howIntent = Intent(this@PlanTrip,How_To_Use::class.java)
 
         Handler().postDelayed(
