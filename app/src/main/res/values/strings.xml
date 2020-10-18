@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">TripWhiz</string>
+    <string name="minimum_budget_required_to_make_this_trip">Minimum budget required to make this trip</string>
+    <string name="change_your_journey_details">Change your journey details</string>
+    <string name="cancel_trip">Cancel Trip</string>
+    <string name="hotel_star_rating">Hotel Star Rating :</string>
+    <string name="recommended_preferences">Recommended Preferences</string>
+    <string name="hotel_type">Hotel Type :</string>
+    <string name="textview">TextView</string>
+    <string name="transport_class">Transport Class:</string>
+    <string name="food_price_range">Food price range:</string>
+    <string name="go_with_recommended">Go with recommended</string>
+    <string name="change_preferences_for_this_trip">Change preferences for this trip</string>
+    <string name="change_journey_details">Change journey details</string>
+    <string name="cancel_trip1">Cancel trip</string>
+    <string name="change_preferences_for_current_trip">Change Preferences for current trip</string>
+    <string name="transport_means">Transport Means:</string>
+    <string name="food_type">Food Type:</string>
+    <string name="food_price_range1">Food Price Range:</string>
+    <string name="select_places_you_like_to_visit">Select places you like to visit</string>
+    <string name="cancel">Cancel</string>
+    <string name="Continue">continue</string>
+    <string name="train">Train</string>
+    <string name="bus">Bus</string>
+    <string name="flight">Flight</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
 </resources>
