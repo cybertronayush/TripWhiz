@@ -12,8 +12,6 @@ class SplashScreen : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
         getSupportActionBar()?.hide()
 
-        val topanimation = AnimationUtils.loadAnimation(this, R.anim.top_animation)
-
 
 
         val SplashScreenTimeOut= 1000

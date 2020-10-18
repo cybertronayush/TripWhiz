@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030D27"
+    tools:context=".backfeed">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/feedback"
+        android:textColor="#FBFBFB"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="341dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/did_you_liked_our_recommendations"
+        android:textColor="#F8F4F4"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="144dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:shadowColor="#F6F6F6"
+        android:text="YES"
+        android:textColor="#FFF8F8"
+        app:layout_constraintEnd_toEndOf="@+id/textView20"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="159dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="4dp"
+        android:text="NOPE"
+        android:textColor="#FFF8F8"
+        app:layout_constraintBottom_toBottomOf="@+id/radioButton4"
+        app:layout_constraintEnd_toEndOf="@+id/textView20"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toEndOf="@+id/radioButton4"
+        app:layout_constraintTop_toBottomOf="@+id/textView20"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="330dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="40dp"
+        android:text="What we could have done better ?"
+        android:textColor="#FFF8F8"
+        app:layout_constraintEnd_toEndOf="@+id/radioButton9"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/radioButton4"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton4" />
+
+    <RadioButton
+        android:id="@+id/radioButton10"
+        android:layout_width="119dp"
+        android:layout_height="42dp"
+        android:text="FOOD"
+        android:textColor="#FFF8F8"
+        app:layout_constraintBottom_toBottomOf="@+id/radioButton12"
+        app:layout_constraintEnd_toStartOf="@+id/radioButton12"
+        app:layout_constraintHorizontal_bias="0.174"
+        app:layout_constraintStart_toStartOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView23"
+        app:layout_constraintVertical_bias="0.208" />
+
+    <RadioButton
+        android:id="@+id/radioButton11"
+        android:layout_width="126dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="16dp"
+        android:text="HOTEL"
+        android:textColor="#FFF8F8"
+        app:layout_constraintEnd_toEndOf="@+id/radioButton10"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/radioButton10"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton10" />
+
+    <RadioButton
+        android:id="@+id/radioButton12"
+        android:layout_width="125dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Places to visit"
+        android:textColor="#FFF8F8"
+        app:layout_constraintEnd_toEndOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <RadioButton
+        android:id="@+id/radioButton13"
+        android:layout_width="140dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="12dp"
+        android:text="Transportation"
+        android:textColor="#FFF8F8"
+        app:layout_constraintEnd_toEndOf="@+id/radioButton12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/radioButton12"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton12" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="252dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="36dp"
+        android:text="Explain Your Problems?"
+        android:textColor="#FFF8F8"
+        app:layout_constraintEnd_toEndOf="@+id/radioButton13"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/radioButton11"
+        app:layout_constraintTop_toBottomOf="@+id/radioButton11" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="340dp"
+        android:layout_height="182dp"
+        android:layout_marginBottom="52dp"
+        android:background="#DBDBC9"
+        android:hint="Write Your problems / suggestions here"
+        android:textColor="#0C0707"
+        android:textColorHint="#050505"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintVertical_bias="0.166" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

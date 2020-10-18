@@ -3,10 +3,9 @@ package com.example.tripwhiz
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class feed_back : AppCompatActivity() {
+class backfeed : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_feed_back)
-
+        setContentView(R.layout.activity_backfeed)
     }
 }

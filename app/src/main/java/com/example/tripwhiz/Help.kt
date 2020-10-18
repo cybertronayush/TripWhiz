@@ -5,20 +5,19 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 
-class PlanTrip : AppCompatActivity() {
+class Help : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_plan_trip)
-
+        setContentView(R.layout.activity_help)
         val SplashScreenTimeOut= 1000
-        val howIntent = Intent(this@PlanTrip,Help::class.java)
+        val nedIntent = Intent(this@Help,backfeed::class.java)
 
         Handler().postDelayed(
-            {
-                startActivity(howIntent)
+                {
+                    startActivity(nedIntent)
 
-                finish()
-            },SplashScreenTimeOut.toLong()
+                    finish()
+                },SplashScreenTimeOut.toLong()
         )
     }
 }

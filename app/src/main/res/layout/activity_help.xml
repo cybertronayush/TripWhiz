@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030D27"
+    tools:context=".Help">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="137dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="253dp"
+        android:layout_marginRight="253dp"
+        android:layout_marginBottom="604dp"
+        android:text="@string/help"
+        android:textColor="#F0fff0"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="142dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="498dp"
+        android:text="@string/after_signing_up_with_tripwhiz_you_can_plan_your_trip_on_clicking_plan_your_trip_icon_here_you_have_fill_required_details_like_budget_default_preferences_number_of_person_from_to_where_of_all_your_usual_trips"
+        android:textColor="#F8F8F8" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="77dp"
+        android:layout_alignStart="@+id/textView15"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignTop="@+id/textView15"
+        android:layout_alignEnd="@+id/textView15"
+        android:layout_alignRight="@+id/textView15"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginRight="-4dp"
+        android:layout_marginBottom="385dp"
+        android:text="@string/after_signing_up_with_tripwhiz_you_can_plan_your_trip_on_clicking_plan_your_trip_icon_here_you_have_fill_required_details_like_budget_default_preferences_number_of_person_from_to_where_of_all_your_usual_trips"
+        android:textColor="#F8F8F8" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_alignEnd="@+id/textView16"
+        android:layout_alignRight="@+id/textView16"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="127dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="265dp"
+        android:text="@string/after_signing_up_with_tripwhiz_you_can_plan_your_trip_on_clicking_plan_your_trip_icon_here_you_have_fill_required_details_like_budget_default_preferences_number_of_person_from_to_where_of_all_your_usual_trips"
+        android:textColor="#F8F8F8" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_alignLeft="@+id/textView17"
+        android:layout_alignTop="@+id/textView16"
+        android:layout_alignEnd="@+id/textView17"
+        android:layout_alignRight="@+id/textView17"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="239dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginRight="-2dp"
+        android:layout_marginBottom="145dp"
+        android:text="@string/after_signing_up_with_tripwhiz_you_can_plan_your_trip_on_clicking_plan_your_trip_icon_here_you_have_fill_required_details_like_budget_default_preferences_number_of_person_from_to_where_of_all_your_usual_trips"
+        android:textColor="#F8F8F8" />
+
+</RelativeLayout>
+
+
+
+
