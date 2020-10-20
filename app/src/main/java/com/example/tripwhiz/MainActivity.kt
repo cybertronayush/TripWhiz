@@ -27,3 +27,15 @@ class ChangePreferenes : AppCompatActivity() {
         setContentView(R.layout.changepreferences)
     }
 }
+class Feasibility2 : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.feasibility2)
+    }
+}
+class Profile : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.profile)
+    }
+}
