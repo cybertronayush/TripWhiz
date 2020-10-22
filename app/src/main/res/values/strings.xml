@@ -19,4 +19,21 @@
     <string name="restaurant_names">List of Restaurant Names</string>
     <string name="places_to_visit">Places To Visit</string>
     <string name="places_visit">List of Places</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="dashboard">DASHBOARD</string>
+    <string name="my_profile">MY PROFILE</string>
+    <string name="change_my_preferences">CHANGE MY PREFERENCES</string>
+    <string name="ongoing_tours">ONGOING TOURS</string>
+    <string name="previous_tours">PREVIOUS TOURS</string>
+    <string name="give_feedback">GIVE FEEDBACK</string>
+    <string name="help">HELP</string>
 </resources>

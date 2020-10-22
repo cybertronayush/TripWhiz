@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/book_icon"
+            android:title="@string/dashboard" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/user_icon"
+            android:title="@string/my_profile" />
+        <item
+            android:id="@+id/nav_preferences"
+            android:icon="@drawable/heart_icon"
+            android:title="@string/change_my_preferences" />
+        <item
+            android:id="@+id/nav_presentTours"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/ongoing_tours" />
+        <item
+            android:id="@+id/nav_previousTours"
+            android:icon="@drawable/past_icon"
+            android:title="@string/previous_tours" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback_icon"
+            android:title="@string/give_feedback" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/help_icon"
+            android:title="@string/help" />
+    </group>
+</menu>
