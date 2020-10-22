@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        tools:context=".details_Page">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="396dp"
+            android:layout_height="189dp"
+            android:layout_marginTop="72dp"
+            android:background="@drawable/rishi"
+            android:contentDescription="@string/todo"
+            android:scaleType="fitCenter"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deatail_for_trips"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.016"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="72dp"
+            android:layout_height="27dp"
+            android:text="@string/rishikesh"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+            app:layout_constraintEnd_toEndOf="@+id/imageView9"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="@+id/imageView9"
+            app:layout_constraintTop_toTopOf="@+id/imageView9"
+            app:layout_constraintVertical_bias="0.452" />
+
+
+        <TextView
+            android:id="@+id/imtext"
+            android:layout_width="372dp"
+            android:layout_height="214dp"
+            android:layout_marginTop="4dp"
+            android:text="@string/located_in_the_himalayan_foothills_rishikesh_experiences_a_cool_weather_for_most_of_the_months_it_acts_as_a_great_escape_during_the_hotter_months_of_march_and_april_and_september_to_october_it_is_best_avoided_during_the_monsoon_months_of_june_to_august_due_to_heavy_rainfall_so_the_best_time_to_plan_an_adventure_trip_to_rishikesh_is_from_march_to_may_and_september_to_november_white_water_river_rafting_cliff_jumping_waterfall_trekking_and_so_on_eat_at_the_river_facing_cafes_carry_your_own_booze_to_the_camp_sites"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="118dp"
+            android:layout_height="22dp"
+            android:text="Best Food"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imtext"
+            app:layout_constraintEnd_toEndOf="@+id/imtext"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/imtext"
+            app:layout_constraintTop_toTopOf="@+id/imtext"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="166dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="44dp"
+            android:text="Tips For Rishikesh's Trip"
+            android:textColor="#F8F7F7"
+            app:layout_constraintBottom_toTopOf="@+id/imtext"
+            app:layout_constraintEnd_toEndOf="@+id/imageView9"
+            app:layout_constraintHorizontal_bias="0.057"
+            app:layout_constraintStart_toStartOf="@+id/imageView9"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="434dp"
+            android:layout_height="320dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/imtext"
+
+            app:layout_constraintStart_toStartOf="@+id/imtext"
+            app:layout_constraintTop_toBottomOf="@+id/imtext"
+            app:layout_constraintVertical_bias="0.2">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="217dp"
+                    android:layout_height="179dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/food2"
+                    android:contentDescription="@string/todo"
+                    android:scaleType="fitCenter" />
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="211dp"
+                    android:layout_height="179dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/food5"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="3dp"
+                    android:scaleType="fitCenter" />
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="185dp"
+                    android:layout_height="179dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/food3"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="3dp"
+                    android:scaleType="fitCenter" />
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="185dp"
+                    android:layout_height="179dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/food1"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="3dp"
+                    android:scaleType="fitCenter" />
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="185dp"
+                    android:layout_height="179dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/food4"
+                    android:contentDescription="@string/todo"
+                    android:scaleType="fitCenter" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+
+
+        <TextView
+            android:id="@+id/imtext2"
+            android:layout_width="360dp"
+            android:layout_height="53dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginBottom="28dp"
+            android:text="     Places To Visit"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
+            app:layout_constraintEnd_toEndOf="@+id/horizontalScrollView"
+            app:layout_constraintHorizontal_bias="0.023"
+            app:layout_constraintStart_toStartOf="@+id/horizontalScrollView"
+            app:layout_constraintTop_toBottomOf="@+id/imtext" />
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="391dp"
+            android:layout_height="216dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintTop_toBottomOf="@+id/imtext2"
+            app:layout_constraintVertical_bias="0.2">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="185dp"
+                    android:layout_height="179dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/uta"
+                    android:contentDescription="@string/todo"
+                    android:scaleType="fitCenter" />
+
+
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="211dp"
+                    android:layout_height="179dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/riv"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="3dp"
+                    android:scaleType="fitCenter" />
+
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="199dp"
+                    android:layout_height="189dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/arto"
+                    android:contentDescription="@string/todo"
+                    android:scaleType="centerCrop" />
+
+
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="185dp"
+                    android:layout_height="179dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/utt"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="3dp"
+                    android:scaleType="fitCenter" />
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="185dp"
+                    android:layout_height="179dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/bett"
+                    android:contentDescription="@string/todo"
+                    android:paddingStart="3dp"
+                    android:scaleType="fitCenter" />
+
+                <ImageView
+                    android:id="@+id/imageView23"
+                    android:layout_width="185dp"
+                    android:layout_height="179dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="7dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/wat"
+                    android:contentDescription="@string/todo"
+                    android:scaleType="fitCenter" />
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+

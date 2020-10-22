@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.TripWhiz">
-        <activity android:name=".backfeed"></activity>
+        <activity android:name=".details_Page"></activity>
+        <activity android:name=".Previous_Trips" />
+        <activity android:name=".backfeed" />
         <activity android:name=".Help" />
         <activity android:name=".PlanTrip" />
         <activity android:name=".SplashScreen">
