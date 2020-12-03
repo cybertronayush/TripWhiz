@@ -6,4 +6,3 @@
 https://drive.google.com/file/d/1Rgb6io9VbUkZTCV26qnfvX6kZoXmeEDt/view?usp=sharing
 
 ### SCREENSHOTS
-![Screenshot](smartmockups_ki8iwk2e.png)
