@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "357455272174",
+    "firebase_url": "https://tripwhizdb.firebaseio.com",
+    "project_id": "tripwhizdb",
+    "storage_bucket": "tripwhizdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357455272174:android:970aa72e47a7fe7048bbff",
+        "android_client_info": {
+          "package_name": "com.example.tripwhiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357455272174-odm43aeua19q68hbun4r88u684al9qk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABagGL2laPgbUBHaEUjOXUfWDYtgE3PPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357455272174-odm43aeua19q68hbun4r88u684al9qk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

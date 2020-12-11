@@ -1,10 +1,9 @@
-package com.example.tripwhiz
+package com.example.ayushsinghchauhantripwhiz
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import android.view.animation.AnimationUtils
 
 class SplashScreen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -12,12 +11,10 @@ class SplashScreen : AppCompatActivity() {
         setContentView(R.layout.activity_splash_screen)
         getSupportActionBar()?.hide()
 
-        val topanimation = AnimationUtils.loadAnimation(this, R.anim.top_animation)
 
 
-
-        val SplashScreenTimeOut= 1000
-        val dashIntent = Intent(this@SplashScreen,PlanTrip::class.java)
+        val SplashScreenTimeOut= 25000
+        val dashIntent = Intent(this@SplashScreen, details_Page::class.java)
 
         Handler().postDelayed(
             {
