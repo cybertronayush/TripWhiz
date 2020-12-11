@@ -1,4 +1,4 @@
-package com.example.tripwhiz
+package com.example.ayushsinghchauhantripwhiz
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -9,8 +9,8 @@ class backfeed : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_backfeed)
-        val SplashScreenTimeOut= 1000
-        val prevIntent = Intent(this@backfeed,Previous_Trips::class.java)
+        val SplashScreenTimeOut= 3000
+        val prevIntent = Intent(this@backfeed, PlanTrip::class.java)
 
         Handler().postDelayed(
             {

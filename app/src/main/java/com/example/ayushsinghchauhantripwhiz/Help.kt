@@ -1,4 +1,4 @@
-package com.example.tripwhiz
+package com.example.ayushsinghchauhantripwhiz
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -10,7 +10,7 @@ class Help : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_help)
         val SplashScreenTimeOut= 1000
-        val nedIntent = Intent(this@Help,backfeed::class.java)
+        val nedIntent = Intent(this@Help, backfeed::class.java)
 
         Handler().postDelayed(
                 {

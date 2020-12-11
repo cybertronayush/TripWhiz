@@ -24,6 +24,7 @@
     <string name="flight">Flight</string>
     <string name="min">Min</string>
     <string name="max">Max</string>
+
     <string name="textview">TextView</string>
     <string name="help">HELP</string>
     <string name="after_signing_up_with_tripwhiz_you_can_plan_your_trip_on_clicking_plan_your_trip_icon_here_you_have_fill_required_details_like_budget_default_preferences_number_of_person_from_to_where_of_all_your_usual_trips">After Signing Up with TripWhiz you can Plan your trip on Clicking Plan your Trip Icon, here You have fill required details like Budget,default preferences,Number of person,From to where of all your usual trips</string>
@@ -39,12 +40,34 @@
     <string name="what_we_could_have_done_better">What we could have done better ?</string>
     <string name="transportation">Transportation</string>
     <string name="button">Button</string>
-    <string name="todo">TODO</string>
+    <string name="todoo">TODO</string>
     <string name="tips_for_rishikesh_s_trip">Tips For Rishikesh\'s Trip</string>
     <string name="located_in_the_himalayan_foothills_rishikesh_experiences_a_cool_weather_for_most_of_the_months_it_acts_as_a_great_escape_during_the_hotter_months_of_march_and_april_and_september_to_october_it_is_best_avoided_during_the_monsoon_months_of_june_to_august_due_to_heavy_rainfall_so_the_best_time_to_plan_an_adventure_trip_to_rishikesh_is_from_march_to_may_and_september_to_november_white_water_river_rafting_cliff_jumping_waterfall_trekking_and_so_on_eat_at_the_river_facing_cafes_carry_your_own_booze_to_the_camp_sites">Located in the Himalayan foothills, Rishikesh experiences a cool weather for most of the months. It acts as a great escape during the hotter months of March and April, and September to October. It is best avoided during the monsoon months of June to August due to heavy rainfall. So, the best time to plan an adventure trip to Rishikesh is from March to May and September to November. white water river rafting,, cliff jumping, waterfall trekking, and so on. Eat at the river facing cafes, Carry your own booze to the camp sites</string>
     <string name="rishikesh">Rishikesh</string>
     <string name="deatail_for_trips">Deatail For Trips</string>
+    <string name="tofo">TODO</string>
+    <string name="type">type</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="todto">TODO</string>
+    <string name="dashboard">TripWhiz Dashbaord</string>
+    <string name="towdo">TODO</string>
+    <string name="dashboard2">TripWhiz Dashbaord</string>
+    <string name="toqdo">TODO</string>
+    <string name="me">Me</string>
     <string name="todo">TODO</string>
-    <string name="change_pref">Change Pref</string>
-    <string name="change_pref">Change Pref</string>
+    <string name="res1">TODO</string>
+    <string name="plan_your_trip">Plan Your Trip</string>
+    <string name="best_trips">Best Trips</string>
+    <string name="previous_trips">Previous Trips</string>
+    >>>>>>> origin/master
 </resources>
